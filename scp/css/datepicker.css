@@ -1,0 +1,115 @@
+/* el div que contiene el calendario selector de fechas */
+.dpDiv {
+	}
+
+
+/* la tabla (dentro del div) que mantiene el calendario y seleciona fechas */
+.dpTable {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #505050;
+	background-color: #ece9d8;
+	border: 1px solid #AAAAAA;
+	}
+
+
+/* fila que contiene los numeros de la fecha(ya sea blanco o 1-31) */
+.dpTR {
+	}
+
+
+/* la fila que contiene los meses,años y los botones adelante / atras */
+.dpTitleTR {
+	}
+
+
+/* la segunda fila de la tabla que contiene los nombres de los dias de la semana */
+.dpDayTR {
+	}
+
+
+/* la fila de la tabla inferior que tiene el boton 'cerrar' 'este mes' */
+.dpTodayButtonTR {
+	}
+
+
+/* una celda de tabla que contiene un numero de fecha */
+.dpTD {
+	border: 1px solid #ece9d8;
+	}
+
+
+/* celda de la tabla que contiene un dia resaltado) */
+.dpDayHighlightTD {
+	background-color: #CCCCCC;
+	border: 1px solid #AAAAAA;
+	}
+
+
+/* puntero */
+.dpTDHover {
+	background-color: #aca998;
+	border: 1px solid #888888;
+	cursor: pointer;
+	color: red;
+	}
+
+
+/* tabla que contiene mes y años */
+.dpTitleTD {
+	}
+
+
+/* contiene los botones adelantes / atras */
+.dpButtonTD {
+	}
+
+
+/* la celda de la tabla que contiene el boton cerrar este mes */
+.dpTodayButtonTD {
+	}
+
+
+/* la celda de la tabla que contiene los dia de la semana */
+.dpDayTD {
+	background-color: #CCCCCC;
+	border: 1px solid #AAAAAA;
+	color: white;
+	}
+
+
+/* estilo adicional para el texto */
+.dpTitleText {
+	font-size: 12px;
+	color: gray;
+	font-weight: bold;
+	}
+
+
+/* estilo  adicional para la cedula*/ 
+.dpDayHighlight {
+	color: 4060ff;
+	font-weight: bold;
+	}
+
+
+/* botones atras/adelante */
+.dpButton {
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: gray;
+	background: #d8e8ff;
+	font-weight: bold;
+	padding: 0px;
+	}
+
+
+/* botones de mes y cerrar */
+.dpTodayButton {
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: gray;
+	background: #d8e8ff;
+	font-weight: bold;
+	}

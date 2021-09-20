@@ -1,0 +1,100 @@
+#header {
+  background-position:  -10% -20%;
+  background-repeat: no-repeat;
+  background-image: url(../images/ARTISOL.png);
+  height: 80px; width: 1350px;}                                                            body {
+        background:url(/images/bg.gif) #fff;
+
+background: background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+background: linear-gradient(red, blue); /* Standard syntax */ //#B08EE1;
+font-family:arial, helvetica, sans-serif;
+	font-size:10pt;
+	color:#000;
+}
+
+body#loginBody {
+background:url(/images/fondoo.png)	text-align: center;
+	margin: 10px;
+}
+h1#logo {
+    float: none;
+    width: 200px;
+    height: 50px;
+    padding:10px 0 20px 0;
+    background: url(../images/logo.png) center center no-repeat #fff;
+	background-size: 200px 90px;
+    margin: 0 auto 0 auto;
+}
+h1#logo a, h1#logo a:link, h1#logo a:visited, h1#logo a:hover {
+    display: block;
+    width: 190px;
+    height: 60px;
+    text-indent: -999em;
+    text-decoration: none;
+    background: none;
+    margin:0 auto 0 auto;
+}
+
+input:focus, textarea:focus {
+    color: #F70;
+    background: #FEA;
+    -moz-outline-style: none;
+}
+
+input[type="hidden"] { border: 0; }
+
+.submit {
+    font-family: Arial, Helvetica, sans-serif;
+ 		margin:10px auto 10px auto;
+    text-shadow: #333 -1px -1px 0px;
+    background-color: #DC2A24;
+    color: #FFF;
+    border:1px solid #666;
+    font-weight:bold;
+    width:auto;
+}
+
+input[type="submit"]:focus {
+    border: 1px solid #E50;
+    border-right-color: #FBA;
+    border-bottom-color: #FBA;
+    background: #F70;
+    color: #FEA;
+}
+
+h1 { font-size: 0.9em; color: #F70; margin: 0; text-align: center;}
+
+
+
+div#loginBox {
+	width: 500px;
+	padding: 30px 20px 5px 20px;
+	margin: 10% auto 0 auto;
+	background:linear-gradient(#E0E0E1, #fff);
+	text-align: center;
+	border:5px solid #fff;
+}
+div#copyRights {
+	font-size: 0.8em;
+	text-align: center;
+    color:#666;
+}
+
+#copyRights a, #copyRights a:, #copyRights a:, #copyRights a:{
+
+    text-decoration: none;
+    background: none;
+    color:#666;
+}
+
+
+input { 
+	width: 175px;
+    margin-left: 5px
+}
+input[type="submit"] { width: auto; margin:10px auto 10px auto; }
+
+
+table,form { margin-top:2px; padding: 0; }
